@@ -4,7 +4,7 @@ I will be uploading the C++ files as a reference or collaboration but the main r
 according to NRC or ICRP standard fleet, I could not accomplish in C++ running on my local computer in CodeBlocks.
 I also thought of using Python to achieve this but I am currently unable to do so due to certain constraints.
 
-# These are a few of the considered parameters:
+## These are a few of the considered parameters:
 
 # Type of Radiation: Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.
 
