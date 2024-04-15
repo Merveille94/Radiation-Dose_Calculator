@@ -6,7 +6,7 @@ I also thought of using Python to achieve this but I am currently unable to do s
 
 ## These are a few of the considered parameters:
 
- <b>Type of Radiation:</b> Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.
+ <u>Type of Radiation:</u> Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.
 
  Radiation Source: Whether it's a medical device, nuclear reactor, or environmental exposure.
 
