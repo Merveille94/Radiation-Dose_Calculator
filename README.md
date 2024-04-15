@@ -6,17 +6,17 @@ I also thought of using Python to achieve this but I am currently unable to do s
 
 ## These are a few of the considered parameters:
 
- **Type of Radiation**: Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.
+**_Type of Radiation_**: Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.
 
-** Radiation Source:** Whether it's a medical device, nuclear reactor, or environmental exposure.
+**_Radiation Source:_** Whether it's a medical device, nuclear reactor, or environmental exposure.
 
-** Exposure Time:** The duration of radiation exposure, measured in seconds, minutes, hours, or years.
+**_Exposure Time:_** The duration of radiation exposure, measured in seconds, minutes, hours, or years.
 
-** Distance from Source:** The distance between the radiation source and the individual or object being exposed. FYI: Radiation intensity decreases with distance.
+**Distance from Source:** The distance between the radiation source and the individual or object being exposed. FYI: Radiation intensity decreases with distance.
 
-** Shielding Material and Thickness:** If there's any shielding (e.g., lead, concrete) between the radiation source and the exposed object, (material and thickness = take input for that too)
+**Shielding Material and Thickness:** If there's any shielding (e.g., lead, concrete) between the radiation source and the exposed object, (material and thickness = take input for that too)
 
-** Energy of Radiation:** The energy of radiation can influence its penetration ability and biological effects.
+**Energy of Radiation:** The energy of radiation can influence its penetration ability and biological effects.
 
  **Body Part Exposed:** Different parts of the body have varying sensitivities to radiation. For example, the skin, eyes, and bone marrow are particularly sensitive.
 
