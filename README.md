@@ -1,5 +1,5 @@
 # Radiation-Dose_Calculator
-This is a Radiation Dose Calculator (RDC) that I developed as a Hobby Project in 2021 Using C++, Now converted into WebApp
+This is a Radiation Dose Calculator (RDC) that I developed as a Hobby Project in 2021 Using C++(in the main.cpp), Now converted into WebApp
 I will be uploading the C++ files as a reference or collaboration but the main reason for this repo is to update the dose limit in real-time.
 according to NRC or ICRP standard fleet, I could not accomplish in C++ running on my local computer in CodeBlocks.
 I also thought of using Python to achieve this but I am currently unable to do so due to certain constraints.
@@ -26,4 +26,4 @@ I also thought of using Python to achieve this but I am currently unable to do s
 
  **Regulatory Limits:** *For occupational or environmental exposures, it's important to compare calculated doses against regulatory limits set by organizations like the International Commission on Radiological Protection (ICRP) or the Nuclear Regulatory Commission (NRC).*
 
-### Initially my C++ did not account for some of these data points but you would be able to go through the data yourself in the CPP folder.
+### Initially my C++ did not account for some of these data points but you would be able to go through the data yourself in the CPP folder (in the main.cpp file).
