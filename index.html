@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Radiaction Dose Calculator">
+<title>Radiation Dose Calculator</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="container">
+    <h1 class="mt-5 mb-4">Radiation Dose Calculator</h1>
+    <div id="nrcStandards">
+        <h2>NRC Standards for Radiation Dose Limits (as of January 2022):</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Exposure Type</th>
+                    <th>Limit (mSv/year)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Occupational</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Environmental</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form id="doseCalculatorForm">
+        <div class="mb-3">
+            <label for="exposureTime" class="form-label">Exposure Time (hours):</label>
+            <input type="number" class="form-control" id="exposureTime" required>
+        </div>
+        <div class="mb-3">
+            <label for="distance" class="form-label">Distance from Radiation Source (meters):</label>
+            <input type="number" class="form-control" id="distance" required>
+        </div>
+        <div class="mb-3">
+            <label for="shieldingThickness" class="form-label">Shielding Thickness (centimeters):</label>
+            <input type="number" class="form-control" id="shieldingThickness" required>
+        </div>
+        <div class="mb-3">
+            <label for="radiationType" class="form-label">Radiation Type:</label>
+            <select class="form-select" id="radiationType" required>
+                <option value="alpha">Alpha</option>
+                <option value="beta">Beta</option>
+                <option value="gamma">Gamma</option>
+                <option value="neutron">Neutron</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="exposureType" class="form-label">Exposure Type:</label>
+            <select class="form-select" id="exposureType" required>
+                <option value="1">Occupational</option>
+                <option value="2">Environmental</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate Dose</button>
+    </form>
+    <div id="doseResult" class="mt-4"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
