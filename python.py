@@ -65,3 +65,4 @@ dose_classification = classify_dose(dose, exposure_type)
 print("\nResults:")
 print(f"Calculated Dose: {dose} mSv")
 print(f"Dose Classification: {dose_classification} for {'occupational' if exposure_type == 1 else 'environmental'} exposure")
+#end of python code
