@@ -69,9 +69,9 @@ MIT license
 
 **Note on Project History:**
 
-This C++ Radiation Dose Calculator was developed in [Month] 2024 as a local application to assist in radiation safety and education. It serves as a tool for radiation professionals, students, and anyone interested in understanding radiation exposure.
+This C++ Radiation Dose Calculator was developed in September 2023 as a local application to assist in radiation safety and education. It serves as a tool for radiation professionals, students, and anyone interested in understanding radiation exposure.
 
-- C++ Version Development: [September] 2023
+- C++ Version Development: Sept, 2023
 
 ---
 
