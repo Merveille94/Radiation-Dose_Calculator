@@ -1,29 +1,80 @@
-# Radiation-Dose_Calculator
-This is a Radiation Dose Calculator (RDC) that I developed as a Hobby Project in 2021 Using C++(in the main.cpp file), Now converted into WebApp
-I will be uploading the C++ files as a reference or collaboration but the main reason for this repo is to update the dose limit in real-time.
-according to NRC or ICRP standard fleet, I could not accomplish in C++ running on my local computer in CodeBlocks.
-I also thought of using Python to achieve this but I am currently unable to do so due to certain constraints.
+# C++ Radiation Dose Calculator
 
-## These are a few of the considered parameters:
+## Overview
 
-**Type of Radiation**: *Different types of radiation have different effects on the body. Common types include alpha, beta, gamma, and neutron radiation.*
+This project is a command-line Radiation Dose Calculator implemented in C++. It allows users to estimate radiation exposure from various sources and calculate effective doses, helping professionals and individuals understand and manage radiation risks.
 
-**Radiation Source:** *Whether it's a medical device, nuclear reactor, or environmental exposure.*
+## Features
 
-**Exposure Time:** *The duration of radiation exposure, measured in seconds, minutes, hours, or years.*
+- User-friendly command-line interface
+- Multiple calculation options:
+  - External radiation exposure
+  - Internal radiation exposure (ingestion and inhalation)
+  - Medical radiation procedures
+- Real-time calculation of radiation doses
+- Conversion between different dose units (Sv, rem, Gy)
+- Comparison with common radiation exposure scenarios
+- Informative ASCII art intro
 
-**Distance from Source:** *The distance between the radiation source and the individual or object being exposed. FYI: Radiation intensity decreases with distance.*
+## Benefits
 
-**Shielding Material and Thickness:** *If there's any shielding (e.g., lead, concrete) between the radiation source and the exposed object, (material and thickness = take input for that too)*
+1. Safety: Helps users assess potential radiation exposure risks
+2. Education: Provides insights into different sources of radiation
+3. Versatility: Allows calculations for various exposure scenarios
+4. Accessibility: Easy to use on any system with a C++ compiler
 
-**Energy of Radiation:** *The energy of radiation can influence its penetration ability and biological effects.*
+## How to Use
 
- **Body Part Exposed:** *Different parts of the body have varying sensitivities to radiation. For example, the skin, eyes, and bone marrow are particularly sensitive.*
+1. Compile the C++ file:
+   ```
+   g++ radiation_dose_calculator.cpp -o rad_calculator
+   ```
+2. Run the executable:
+   ```
+   ./rad_calculator
+   ```
+3. Follow the on-screen prompts to input exposure data
+4. Choose which types of radiation exposure to calculate
+5. View your results and total effective dose
 
- **Dosimetric Data:** *This includes parameters such as absorbed dose (measured in grey or rad), equivalent dose (measured in sievert or rem), and effective dose, which accounts for the different biological effects of different types of radiation (measured in sievert or rem).*
+## Technical Details
 
- **Biological Factors:** *Some calculators might also take into account factors such as age, gender, and overall health, as these can affect an individual's sensitivity to radiation.*
+- Language: C++
+- Compiler: Any standard C++ compiler (e.g., GCC, Clang)
+- No external libraries were required
 
- **Regulatory Limits:** *For occupational or environmental exposures, it's important to compare calculated doses against regulatory limits set by organizations like the International Commission on Radiological Protection (ICRP) or the Nuclear Regulatory Commission (NRC).*
+## Calculations Included
 
-### Initially my C++ did not account for some of these data points but you would be able to go through the data yourself in the CPP (in the main.cpp file).
+- External Radiation: Based on exposure time and dose rate
+- Internal Radiation: Calculates committed effective dose from ingestion or inhalation
+- Medical Procedures: Estimates doses from common radiological examinations
+- Unit Conversions: Between Sievert (Sv), rem, and Gray (Gy)
+
+## Future Enhancements
+
+- Add more specific radioisotopes and their characteristics
+- Implement dose calculations for different body organs
+- Create a graphical user interface (GUI) version
+- Include a database of common radiation sources for quick reference
+
+## Contribution
+
+Contributions, issues, and feature requests are welcome. Feel free to check [issues page](https://github.com/Merveille94/Radiation-Dose_Calculator.git) if you want to contribute.
+
+## License
+
+MIT license
+
+---
+
+**Note on Project History:**
+
+This C++ Radiation Dose Calculator was developed in [Month] 2024 as a local application to assist in radiation safety and education. It serves as a tool for radiation professionals, students, and anyone interested in understanding radiation exposure.
+
+- C++ Version Development: [September] 2023
+
+---
+
+**Disclaimer:** This calculator is for educational and estimation purposes only. For accurate radiation dose assessments in professional or medical contexts, always consult with qualified radiation protection experts or medical physicists.
+
+For any questions or feedback, please contact [Email: emanueleguehi@gmail.com].
