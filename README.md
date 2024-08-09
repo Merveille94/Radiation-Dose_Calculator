@@ -1,4 +1,4 @@
-# C++ Radiation Dose Calculator
+# C++ Radiation Dose Calculator (For educationalpurposes only)
 
 ## Overview
 
